@@ -1,0 +1,101 @@
+/* Homepage */  
+
+.row-navigation{
+  background:blue;
+  position: relative;
+  border-radius: 300px;
+  display:inline;
+  text-align:center;
+}
+h1{
+  color:#499371;
+  font-family: 'Bungee Shade', cursive;
+} 
+h2{
+  font-size: 15px;
+}
+p{font-family: 'Open Sans', sans-serif;}
+h2{font-size: 15px;
+  font-family: 'Open Sans', sans-serif;}
+}
+h4{font-family: 'Open Sans', sans-serif;}
+ul{
+  list-style-type: none;
+  font-family: 'Lato', sans-serif;
+
+}
+ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.btn-info {
+  font-family: 'Lato', sans-serif;}
+.row-circle-container {
+  position: relative;
+}
+
+.circle{
+  background: #499371;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 300px;
+  display: block;
+}
+h3{
+  position: absolute;
+  text-align: center;
+  color: black;
+}
+
+/* Medium content and larger */
+@media (min-width: 992px){
+  /* .col-md */ 
+}
+.show-large{
+  display: none;
+}  
+}
+.circle-poetry{
+  margin-top:2vh;
+}  
+.circle-prose{
+  margin-top:10vh;
+}
+.circle-etc{
+
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Large content only */
+@media (min-width: 1200px) {
+  /* .col-lg */
+  .show-large{
+    display: block;
+  }
+  .circle-poetry{
+    margin-top:2vh;
+  }  
+  .circle-prose{
+    margin-top:10vh;
+
+  }
+  .circle-etc{
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .circle-poetry {
+    bottom: 10px;
+    left: 800px;
+  }
+  .circle-prose{
+    left: 100px;
+    bottom: 300px;
+  }
+  .circle-etc{
+    bottom:400px;
+  }
+
